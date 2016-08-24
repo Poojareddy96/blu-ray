@@ -12,7 +12,7 @@ System.out.print(r.fun(n));
 public long fun(long n)
 {
 long rev=0;
-while(n!=0)
+while(n>0)
 {
  long a=n%10;
  rev=(rev*10)+a;
